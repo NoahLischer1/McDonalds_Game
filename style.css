@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+#startButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
 #game {
   width: 600px;
   height: 300px;
@@ -29,7 +37,7 @@
   left: 550px;
   background-image: url("https://juststickers.in/wp-content/uploads/2017/06/pixel-burger.png");
   background-size: cover;
-  animation: ufoMove 1.33s infinite linear;
+  animation: none;
 }
 
 @keyframes ufoMove {
